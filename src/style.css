@@ -1,0 +1,106 @@
+body {
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+.no-margin {
+    margin: 0;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.flex-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro {
+    padding: 0;
+}
+
+
+.esp, .eng {
+    background: transparent;
+    border: none;
+    padding: none;
+    cursor: pointer;
+}
+.esp:hover, .eng:hover {
+    background-color: palegreen;
+    font-weight: bold;
+}
+
+.btnBg {
+    background-color: palegreen;
+}
+
+
+
+main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+}
+
+.main-title {
+    font-size: 10em;
+    text-transform: lowercase;
+    font-family: 'PT Serif', serif;
+}
+
+.sub {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 3em;
+}
+
+section {
+    width: 49vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title {
+    font-size: 3em;
+    text-transform: lowercase;
+    font-family: 'PT Serif', serif;
+    text-decoration: underline;
+}
+
+.content {
+    width: 30vw;
+    font-size: 1.2em;
+    font-family: 'Roboto', sans-serif;
+}
+
+@media screen and (max-width: 1024px) {
+    .main-title {
+        word-spacing: 10vw;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .main-title {
+        word-spacing: 10vw;
+        font-size: 5em;
+    }
+    .sub {
+        font-size: 2em;
+    }
+    section {
+        width: 100vw;
+    }
+    .content {
+        width: 70vw;
+    }
+}
