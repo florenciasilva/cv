@@ -1,3 +1,4 @@
+
 const underlineColors = ['paleturquoise', '#c4ffc4', 'thistle', 'bisque', 'silver', 'lightpink'];
 
 document.querySelectorAll('.title').forEach( (element, i) => {
@@ -6,7 +7,6 @@ document.querySelectorAll('.title').forEach( (element, i) => {
 
 const populateParagraphs = (language) => {
         document.querySelectorAll('.content').forEach((element, i) => {
-            console.log(language)
             element.innerHTML = language[i];
         });
 };
@@ -29,3 +29,4 @@ document.querySelector('.eng').addEventListener('click', (event) => {
 
 populateParagraphs(eng);
 populateTitles(engTitle);
+
