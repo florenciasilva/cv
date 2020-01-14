@@ -59,7 +59,6 @@ main {
 .sub {
     font-family: 'Roboto Mono', monospace;
     font-size: 3em;
-    
 }
 
 footer {
@@ -105,15 +104,23 @@ a {
     text-decoration: none;
     color: black;
     font-size: 1.2em;
+    line-height: 1.9em;
 }
 
 a:hover {
     text-decoration: underline;
 }
 
-.contact {
+.list {
     margin: 0;
     list-style: none;
+}
+
+.tech {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 2em;
 }
 
 .subParagraph {
@@ -139,6 +146,6 @@ a:hover {
         width: 100vw;
     }
     .content {
-        width: 70vw;
+        width: 75vw;
     }
 }

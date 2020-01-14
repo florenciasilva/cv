@@ -1,5 +1,5 @@
 
-const underlineColors = ['paleturquoise', '#c4ffc4', 'thistle', 'bisque', 'silver', 'lightpink'];
+const underlineColors = ['paleturquoise', '#c4ffc4', 'thistle', 'bisque', 'silver', 'lightpink', '#dcc77d', '#bb829c'];
 
 document.querySelectorAll('.title').forEach( (element, i) => {
     element.style['text-decoration-color'] = underlineColors[i]
