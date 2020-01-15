@@ -17,16 +17,6 @@ const populateTitles= (language) => {
     });
 };
 
-document.querySelector('.esp').addEventListener('click', (event) => {
-    populateParagraphs(esp);
-    populateTitles(espTitle);
-});
-
-document.querySelector('.eng').addEventListener('click', (event) => {
-    populateParagraphs(eng);
-    populateTitles(engTitle);
-});
-
 populateParagraphs(eng);
 populateTitles(engTitle);
 
