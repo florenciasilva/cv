@@ -17,6 +17,7 @@ const populateTitles= (language) => {
     });
 };
 
-populateParagraphs(eng);
-populateTitles(engTitle);
+
+populateParagraphs(esp);
+populateTitles(espTitle);
 
