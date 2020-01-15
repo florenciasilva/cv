@@ -9,7 +9,7 @@ const workExp = `
     <article>
         <h3>Front End Coach</h3>
         <p class="subParagraph">Laboratoria <strong>|</strong> Feb 2019 - Dec 2019</p>
-        <p>blah blah blah blah blah</p>
+        <p>Coaching 60+ students in an intensive six month bootcamp, where I helped them learn JavaScript, ReactJS, NodeJS and agile methodologies. I collaborated regionally creating new projects for the curriculum and participating in various activities</p>
     </article>
     <article>
         <h3>Volunteer Mentor</h3>
@@ -22,7 +22,7 @@ const workExpEsp = `
     <article>
         <h3>Front End Coach</h3>
         <p class="subParagraph">Laboratoria <strong>|</strong> Feb 2019 - Dic 2019</p>
-        <p>blah blah blah blah blah</p>
+        <p>Preparando a mas de 60 estudiantes de un bootcamp intensivo de seis meses donde les ayude a aprender JavaScript, ReactJS, NodeJS y metodologias agiles. Colabore creando nuevos proyectos para la curricula y participando en diferentes actividades a nivel regional.</p>
     </article>
     <article>
         <h3>Volunteer Mentor</h3>
