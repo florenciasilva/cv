@@ -121,7 +121,7 @@ const eng = [ 'I am a self-taught <strong>Full Stack Developer</strong>. I\'m in
             other,
             workExp,
             '<strong>Native Spanish | English 74/100 C2 Proficient</strong>',
-            '<strong>Laboratoria Front End Developer |</strong> Graduated May 2018'
+            '<strong>Laboratoria Front End Developer |</strong> Graduated December 2018'
 ];
 
 const esp = [ 'Soy una desarrolladora <strong>full stack autodidacta</strong>. Estoy particularmente interesada en <strong>Accesibilidad</strong>, creando páginas web y aplicaciones bonitas, geniales e inclusivas. Actualmente, el stack que uso día a día es <strong>ReactJS, MongoDB, styled-components y aXe</strong>. Disfruto mucho de aprender nuevas maneras de utilizar estas tecnologías y encontrar nuevas herramientas en el camino.',
@@ -131,7 +131,7 @@ const esp = [ 'Soy una desarrolladora <strong>full stack autodidacta</strong>. E
             otros,
             workExpEsp,
             '<strong>Español nativo | Ingles 74/100 C2 Proficient </strong>',
-            '<strong>Laboratoria | Front End Developer |</strong> Graduada Mayo 2018'
+            '<strong>Laboratoria | Front End Developer |</strong> Graduada Diciembre 2018'
 ];
 
 const engTitle = [ 'Bio', 'Contact', 'Front', 'Back', 'Other', 'Work Exp', 'Languages', 'Education'];
